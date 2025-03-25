@@ -11,12 +11,12 @@
       "fa_icon": "fas fa-terminal",
       "description": "Define where the pipeline should find input data and save output data.",
       "properties": {
-        "outdir": {
+
+        "reads": {
           "type": "string",
-          "format": "directory-path",
-          "description": "The output directory where the results will be saved. You have to use absolute paths to storage on Cloud infrastructure.",
+          "description": "The input read-pair files",
           "fa_icon": "fas fa-folder-open",
-          "default": "results"
+          "default": "${projectDir}/data/ggal/ggal_gut_{1,2}.fq"
         }
       }
     }
