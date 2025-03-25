@@ -17,23 +17,6 @@
           "description": "The output directory where the results will be saved. You have to use absolute paths to storage on Cloud infrastructure.",
           "fa_icon": "fas fa-folder-open",
           "default": "results"
-        },
-        "reads": {
-          "type": "string",
-          "description": "The input read-pair files",
-          "fa_icon": "fas fa-folder-open",
-          "default": "${projectDir}/data/ggal/ggal_gut_{1,2}.fq"
-        },
-        "transcriptome": {
-          "type": "string",
-          "description": "The input transcriptome file",
-          "fa_icon": "fas fa-folder-open",
-          "default": "${projectDir}/data/ggal/ggal_1_48850000_49020000.Ggal71.500bpflank.fa"
-        },
-        "multiqc": {
-          "type": "string",
-          "fa_icon": "fas fa-folder-open",
-          "default": "${projectDir}/multiqc"
         }
       }
     }
